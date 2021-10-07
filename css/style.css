@@ -36,7 +36,7 @@ header {
     margin-right: 20px;
 }
 
-#logo img{
+#logo img {
     vertical-align: middle;
 }
 
@@ -49,7 +49,7 @@ nav li {
     margin-right: 30px;
 }
 
-nav li a{
+nav li a {
     text-decoration: none;
     color: black;
 }
@@ -62,3 +62,69 @@ nav li a{
 }
 
 /* /header */
+
+/* jumbo  */
+
+#jumbo {
+    background-color: #b4d0e7;
+    position: relative;
+}
+
+.container-jumbo {
+    padding: 100px 0;
+    margin: 0 auto;
+    width: 80%;
+
+}
+
+#jumbo .main-title {
+    width: 100%;
+    font-size: 45px;
+}
+
+#jumbo .jumbo-col {
+    width: 100%;
+    margin-top: 50px;
+}
+
+#jumbo .col1jumbo {
+    width: 30%;
+    padding-bottom: 100px;
+}
+
+#jumbo .col1jumbo p {
+    margin-bottom: 40px;
+}
+
+#jumbo .col1jumbo p:last-child {
+    margin-top: 10px;
+}
+
+#jumbo .col1jumbo a {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+#jumbo .col1jumbo i {
+    font-size: 40px;
+}
+
+#jumbo .col2jumbo {
+    width: 65%;
+}
+
+#jumbo .col2jumbo img {
+    position: absolute;
+    width: 50%;
+}
+
+/* nel monitor del portatile l'immagine non sfora bene
+mentre nel monitor 21" sfora come nell'immagine */
+
+/* /jumbo  */
+
+.container-main {
+    width: 70%;
+    margin: 0 auto;
+    padding: 100px 0
+}
