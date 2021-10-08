@@ -32,6 +32,12 @@
 header {
     height: 80px;
     line-height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #fff;
 }
 
 .container-header {
@@ -45,7 +51,7 @@ header {
 }
 
 #logo img {
-    vertical-align: middle;
+    vertical-align: text-bottom;
 }
 
 nav {
@@ -66,7 +72,7 @@ nav li a {
     text-decoration: none;
     color: white;
     padding: 5px 15px;
-    background-color: #3b85ff;
+    background-color: #0061ff;
 }
 
 /* /header */
@@ -76,6 +82,7 @@ nav li a {
 #jumbo {
     background-color: #b4d0e7;
     position: relative;
+    padding-top: 80px
 }
 
 .container-jumbo {
@@ -97,7 +104,7 @@ nav li a {
 
 #jumbo .col1jumbo {
     width: 30%;
-    padding-bottom: 100px;
+    padding-bottom: 90px;
 }
 
 #jumbo .col1jumbo p {
@@ -124,17 +131,16 @@ nav li a {
 #jumbo .col2jumbo img {
     position: absolute;
     width: 50%;
+    max-width: 800px;
 }
 
-/* nel monitor del portatile l'immagine non sfora bene
-mentre nel monitor 21" sfora come nell'immagine */
 
 /* /jumbo  */
 
 .container-main {
     width: 70%;
     margin: 0 auto;
-    padding: 100px 0
+    padding: 150px 0
 }
 
 .title-section1 {
@@ -151,13 +157,18 @@ mentre nel monitor 21" sfora come nell'immagine */
 }
 
 .col-fatturazione {
-    width: calc(100% / 3 - 40px);
+    width: calc((100% - 100px) / 3);
     min-height: 1000px;
     border: 1px solid lightgray;
-    margin: 40px 20px;
+    margin: 40px 0px;
 }
 
-.container-col {
+.col-fatturazione:nth-child(3) {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.col-fatturazione .container-col {
     margin: 0 auto;
     width: 80%;
     padding-top: 20px;
@@ -192,7 +203,7 @@ mentre nel monitor 21" sfora come nell'immagine */
 }
 
 .btncol {
-    background-color: #3b85ff;
+    background-color: #0061ff;
     color: white;
     text-align: center;
     padding: 10px 30px;
@@ -238,4 +249,18 @@ mentre nel monitor 21" sfora come nell'immagine */
 .puntipiano ul li a {
     text-decoration: none;
     color: black;
+}
+
+.colonnalarga {
+    border: 1px solid lightgray;
+    width: 100%;
+    min-height: 200px;
+    display: inline-block;
+}
+
+.colonnalarga .titlecolonnalarga {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px lightgrey solid;
 }
