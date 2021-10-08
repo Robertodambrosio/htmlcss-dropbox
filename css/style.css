@@ -343,10 +343,97 @@ nav li a {
 }
 
 .card:nth-child(2) {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 40px 50px;
 }
 
 .card img {
     width: 100%;
+}
+
+
+#section4 .title-section1 {
+    width: 50%
+}
+
+#section4 .container-main {
+    padding: 0
+}
+
+.sezionequadrati {
+    background-color: rgb(240, 240, 240);
+    height: 30vw;
+    margin-top: 50px;
+}
+
+.quadratosx,
+.quadratodx {
+    width: 30vw;
+    height: 30vw;
+
+}
+
+.quadratocentro {
+    height: 30vw;
+    width: 39vw;
+}
+
+
+.square {
+    height: 15vw;
+    width: 15vw;
+    position: relative;
+}
+
+.square img {
+    filter: invert(100%);
+    display: inline-block;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.quadratosx .square:nth-of-type(1) {
+    background-color: #a2d39b;
+}
+
+.quadratosx .square:nth-of-type(2) {
+    background-color: #61082b;
+}
+
+.quadratosx .square:nth-of-type(3) {
+    background-color: #0093ce;
+}
+
+.quadratosx .square:nth-of-type(4) {
+    background-color: #ff1c1c;
+}
+
+.quadratodx .square:nth-of-type(1) {
+    background-color: #d5001f;
+}
+
+.quadratodx .square:nth-of-type(2) {
+    background-color: #b4d0e7;
+}
+
+.quadratodx .square:nth-of-type(3) {
+    background-color: #009;
+}
+
+.quadratodx .square:nth-of-type(4) {
+    background-color: #ffd830;
+}
+
+.quadratocentro .container-square img {
+    width: 30%;
+    margin-bottom: 50px;
+}
+
+.container-square {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 40px;
 }
