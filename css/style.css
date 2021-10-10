@@ -437,3 +437,35 @@ nav li a {
     margin: 0 auto;
     padding-top: 40px;
 }
+
+.freetrial {
+    padding: 150px 0;
+    background-color: #b4d0e7;
+    display: flex;
+    align-content: center;
+}
+
+.titletrial h2 {
+    width: 70%;
+    color: rgb(109, 15, 15);
+    font-size: 30px;
+}
+
+.btntrial .btncol {
+    background-color: #fff;
+    color: black;
+}
+
+.faq h3 {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.faq .questionform hr {
+    color: rgb(231, 231, 231);
+    margin: 30px 0;
+}
+
+.faq .questionform span {
+    font-weight: bold;
+}
