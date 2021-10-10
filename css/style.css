@@ -469,3 +469,35 @@ nav li a {
 .faq .questionform span {
     font-weight: bold;
 }
+
+footer {
+    background-color: black;
+}
+
+footer .row {
+    padding: 100px 0px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.listefooter ul {
+    margin-right: 9%;
+    color: white;
+    list-style: none;
+}
+
+
+.listefooter ul h3 {
+    padding-bottom: 20px;
+}
+
+.listefooter ul li a {
+    text-decoration: none;
+    line-height: 30px;
+    color: white;
+}
+
+.listefooter ul hr {
+    margin-top: 100px;
+}
