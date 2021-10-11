@@ -99,7 +99,6 @@ nav li:hover {
 
 nav .dropdown {
     position: relative;
-    /* overflow: hidden; */
 }
 
 nav .dropdown .dropdown-content {
@@ -133,6 +132,12 @@ nav .dropdown:hover .dropdown-content {
     color: white;
     padding: 5px 15px;
     background-color: #0061ff;
+}
+
+.btnhead:hover,
+.btncol:hover {
+    background-color: #003c9c;
+    transition: linear 0.3s;
 }
 
 /* /header */
@@ -185,13 +190,19 @@ nav .dropdown:hover .dropdown-content {
     position: absolute;
     width: 50%;
     max-width: 800px;
+    transition: all 0.4s ease;
+    animation: jumping 2s ease-out 0s infinite;
 }
 
-#jumbo .col2jumbo img:hover {
-    transform: scale(1.1);
-    transition: all 0.8s;
-}
+@keyframes jumping {
+    50% {
+        transform: translate(0, -20px)
+    }
 
+    100% {
+        transform: translate(0, -0)
+    }
+}
 
 /* /jumbo  */
 
@@ -525,12 +536,21 @@ nav .dropdown:hover .dropdown-content {
 .titletrial h2 {
     width: 70%;
     color: rgb(109, 15, 15);
-    font-size: 30px;
+    font-size: 40px;
 }
 
-.btntrial .btncol {
+.btntrial .btnfree {
     background-color: #fff;
     color: black;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.btntrial .btnfree:hover {
+    background-color: rgb(223, 223, 223);
+    color: black;
+    text-decoration: none;
+    transition: linear 0.3s;
 }
 
 /* /sezione freetrial */
@@ -551,9 +571,22 @@ nav .dropdown:hover .dropdown-content {
     font-weight: bold;
 }
 
-.faq .questionform i {
-    margin-right: 20px;
+.faq .questionform .row .dropdownfaq {
+    display: none;
+    padding-top: 10px;
 }
+
+
+.faq .questionform .row span:hover .dropdownfaq {
+    display: block;
+}
+
+.dropdownfaq p {
+    font-weight: 300;
+    color: rgb(126, 126, 126);
+    width: 80%;
+}
+
 
 /* /sezione5 */
 
