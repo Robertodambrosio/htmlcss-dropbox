@@ -27,7 +27,31 @@
     padding-bottom: 10px;
 }
 
-/* header */
+#section2,
+#section3 {
+    margin-top: 150px;
+}
+
+/* container  */
+.container-header {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.container-jumbo {
+    padding: 100px 0;
+    margin: 0 auto;
+    width: 80%;
+
+}
+
+.container-main {
+    width: 70%;
+    margin: 0 auto;
+    padding: 150px 0
+}
+
+/* =============== header================== */
 
 header {
     height: 80px;
@@ -40,10 +64,7 @@ header {
     background-color: #fff;
 }
 
-.container-header {
-    width: 95%;
-    margin: 0 auto;
-}
+/* logo */
 
 #logo {
     display: inline-block;
@@ -53,6 +74,8 @@ header {
 #logo img {
     vertical-align: text-bottom;
 }
+
+/* nav  */
 
 nav {
     display: inline-block;
@@ -83,13 +106,6 @@ nav li a {
     background-color: #b4d0e7;
     position: relative;
     padding-top: 80px
-}
-
-.container-jumbo {
-    padding: 100px 0;
-    margin: 0 auto;
-    width: 80%;
-
 }
 
 #jumbo .main-title {
@@ -137,11 +153,9 @@ nav li a {
 
 /* /jumbo  */
 
-.container-main {
-    width: 70%;
-    margin: 0 auto;
-    padding: 150px 0
-}
+/* ===================main=================== */
+
+/* init sezione 1  */
 
 .title-section1 {
     margin-bottom: 20px;
@@ -155,6 +169,8 @@ nav li a {
 .title-section1 span {
     margin-right: 20px;
 }
+
+/* colonne sezione 1 */
 
 .col-fatturazione {
     width: calc((100% - 100px) / 3);
@@ -251,6 +267,8 @@ nav li a {
     color: black;
 }
 
+/* colonna 4 sezione 1  */
+
 .colonnalarga {
     border: 1px solid lightgray;
     width: 100%;
@@ -294,13 +312,11 @@ nav li a {
     width: 30%
 }
 
+/* /sezione1 */
 /* section 2 */
 
-#section2,
-#section3 {
-    margin-top: 150px;
-}
 
+/* img e titolo partner */
 .partner {
     display: block;
 }
@@ -337,6 +353,9 @@ nav li a {
     border: 1px solid black;
 }
 
+/* /sezione 2 */
+/* sezione 3  */
+
 .card {
     width: calc((100% - 100px) / 3);
     margin: 40px 0px;
@@ -350,6 +369,8 @@ nav li a {
     width: 100%;
 }
 
+/* /sezione3 */
+/* sezione 4 */
 
 #section4 .title-section1 {
     width: 50%
@@ -374,7 +395,7 @@ nav li a {
 
 .quadratocentro {
     height: 30vw;
-    width: 39vw;
+    width: calc(100% - 60vw);
 }
 
 
@@ -394,7 +415,7 @@ nav li a {
     transform: translate(-50%, -50%);
 }
 
-
+/* sfondi quadrati  */
 .quadratosx .square:nth-of-type(1) {
     background-color: #a2d39b;
 }
@@ -427,6 +448,8 @@ nav li a {
     background-color: #ffd830;
 }
 
+/* /sfondi quadrati */
+
 .quadratocentro .container-square img {
     width: 30%;
     margin-bottom: 50px;
@@ -438,6 +461,7 @@ nav li a {
     padding-top: 40px;
 }
 
+/* sezione freetrial */
 .freetrial {
     padding: 150px 0;
     background-color: #b4d0e7;
@@ -456,6 +480,9 @@ nav li a {
     color: black;
 }
 
+/* /sezione freetrial */
+/* sezione5 */
+
 .faq h3 {
     font-size: 30px;
     padding-bottom: 30px;
@@ -470,7 +497,9 @@ nav li a {
     font-weight: bold;
 }
 
-/* footer  */
+/* /sezione5 */
+
+/* ====================footer===================  */
 
 footer {
     background-color: black;
@@ -503,3 +532,5 @@ footer .row {
 .listefooter ul hr {
     margin-top: 100px;
 }
+
+/* /footer  */
